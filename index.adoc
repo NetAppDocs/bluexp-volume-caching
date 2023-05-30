@@ -3,9 +3,9 @@ layout: landing-page
 sidebar: sidebar
 permalink: index.html
 # lead: Use only if indexpage.lead is not present in _index.yml
-summary: "summary, used for search results"
+summary: "Volume caching provides a persistent, writable volume in a remote place. You can use BlueXP volume caching to speed up access to data or to offload traffic from heavily accessed volumes. Cache volumes are ideal for read-intensive workloads, especially where clients need to access the same data repeatedly."
 ---
-= replace with repository name
+= BlueXP volume caching
 :hardbreaks:
 :nofooter:
 :icons: font
