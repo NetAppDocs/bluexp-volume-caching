@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
-permalink: get-started/dr-quick-start.html
-keywords: how to get started with bluexp volume caching, volume caching quick start, failover, failback
+permalink: get-started/cache-quick-start.html
+keywords: how to get started with bluexp volume caching, volume caching quick start
 summary: Get started with the NetApp BlueXP volume caching service in a few steps.
 ---
 

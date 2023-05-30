@@ -20,19 +20,17 @@ To use BlueXP volume caching, perform a few steps to set it up.
 
 
 
-== Set up in BlueXP
-The next step is to set up volume caching in BlueXP. 
 
 
-=== Create a Connector in BlueXP
-You need to sign up for the beta or reach out to your NetApp Sales rep to try out this service. Then, when you use the BlueXP Connector, it will include the appropriate capabilities for the volume caching service. 
+== Create a Connector in BlueXP
+The next step is to create a Connector in BlueXP. 
 
 To create a Connector in BlueXP before using the service, refer to the BlueXP documentation that describes https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[how to create a connector^]. 
 
 
 == Create working environments 
 
-If you haven’t done so already, you need to create the working environments for the source and target in the data replication relationship. 
+If you haven’t done so already, you need to create the working environments for the source and target. 
 
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html[Create an Amazon FSx for ONTAP working environment^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html[Launch Cloud Volumes ONTAP in AWS^] 

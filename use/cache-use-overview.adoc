@@ -14,8 +14,8 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 Using BlueXP volume caching, you can accomplish the following goals: 
 
 * link:../use/cache-create.html[Create a cache].
-* link:../use/cache-manage.html#view_cache_details[View cache details].
-* link:../use/cache-manage.html#edit_a_cache[Change the export policy and resize a cache].
-* link:../use/cache-manage.html#delete_a_cache[Delete a cache].
+* link:../use/cache-manage.html#view-cache-details[View cache details].
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy[Change the export policy and resize a cache].
+* link:../use/cache-manage.html#delete-a-volume-cache[Delete a cache].
 * link:../use/monitor-jobs.html[Monitor volume caching operations] on the BlueXP Timeline.
 

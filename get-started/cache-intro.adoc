@@ -21,7 +21,7 @@ The service also provides branch office access to corporate datasets. By serving
 
 BlueXP volume caching is deployed in an Amazon S3 bucket, served by AWS CloudFront. 
 
-image:abc.png[Diagram showing components of the BlueXP volume caching]
+//image:abc.png[Diagram showing components of the BlueXP volume caching]
 
 == What is a cache? 
 
