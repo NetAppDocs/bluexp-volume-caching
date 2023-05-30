@@ -37,12 +37,8 @@ link:../get-started/dr-setup.html[Complete steps to set up the service^].
 After you set up the service, here's what you might do next. 
 
 [role="quick-margin-list"]
-* link:../use/sites-add.html[Add vCenter sites^].
-* link:../use/drplan-create.html[Create a volume caching plan^].
-* link:../use/replicate.html[Replicate applications to another site^].
-* link:../use/failover.html[Fail over applications to a remote site^].
-* link:../use/failback.html[Fail back applications to the original source site^].
-* link:../use/manage-overview.html[Manage sites, plans, datastores, and virtual machines information^].
+* link:../use/cache-create.html[Create a cache^].
+* link:../use/cache-use-overview.html[Manage a cache, including resizing a cache volume^].
 * link:../use/monitor-jobs.html[Monitor volume caching operations^].
 
 
