@@ -23,5 +23,5 @@ For the URL, in a browser, enter: https://console.bluexp.netapp.com/[https://con
 A NetApp License File (NLF) is not required.
 
 *How do you enable BlueXP volume caching?*
-BlueXP volume caching does not require any enablement. The volume caching option automatically appears on the BlueXP left navigation.  
+BlueXP volume caching does not require any enablement. The volume caching option automatically appears on the BlueXP left navigation.
 

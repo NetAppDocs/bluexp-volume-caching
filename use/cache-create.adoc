@@ -32,7 +32,9 @@ You'll land on the BlueXP volume caching Dashboard page. When you first start wi
 
 +
 NOTE: If you have not yet set up a BlueXP Connector, the option *Add a connector* appears instead of the *Add a cache*. In this case, you need to set up the Connector first. Refer to the https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html[BlueXP Quick start^].
-
++
+image:landing-page.png[the landing page for volume caching]
++
 . Select *Add a cache*. 
 
 . In the Cache data page, select the working environment source and target cache and select *Start caching wizard*.
@@ -66,16 +68,17 @@ The new cache appears on the Caching list. The cache volume name will show `_cac
 
 == Steps from the BlueXP canvas
 
-. From the BlueXP canvas, select the working environment.  
+. From the BlueXP canvas, select the working environment.
 . Select the source environment and drag it to the destination.
+image:drag-n-drop.png[drag and drop functionality to create cache]
 . Select the *Volume caching* service.  
 +
 This creates a cache volume from the source to the destination.  
 
 . In the right pane, in the Caching service box, select *Add*.  
 
-. In the Cache data page, select the working environment you want to cache and select *Start caching wizard*.
-
+. In the Cache data page, select the working environment you want to cache and select *Start cache wizard*.
+image:cache-data.png[cache data pop-up]
 . In the Configure your caches page, select the volume or volumes you want to cache.  
 
 +
@@ -85,19 +88,21 @@ NOTE: You can select up to 50 volumes.
 . Enter the size for cache volumes as a percentage of the source volume size. 
 +
 TIP: A good rule of thumb is that the cache volume size should be about 15% of the source volume size.
-
++
+image:create-cache.png[window for adding cache]
++
 . Check the *Cache access* box to replicate the NFS export policy and the SMB/CIFS share configuration from the source volume to the target cache volume. 
 +
-Then the NFS export policy and SMB/CIFS share in the source volume will be replicated to the cache volume. If the SMB/CIFS protocol isn’t enabled on the cache storage VM, the SMB/CIFS share will not replicate.   
-
+Then the NFS export policy and SMB/CIFS share in the source volume will be replicated to the cache volume. If the SMB/CIFS protocol isn't enabled on the cache storage VM, the SMB/CIFS share will not replicate.   
++
 . Optionally, enter the cache name prefix. 
 +
-The suffix of `_cache` is appended to the name in the format: `<user-specified prefix>_<source volume name>_cache`
+The suffix of `__cache` is appended to the name in the format: `<user-specified prefix>_<source volume name>_cache`
 
 
 
 . Select *Create caches*. 
 +
-The new cache appears on the Caching list. The cache volume name will show `_cache` as a suffix to the source volume name. 
+The new cache appears on the Caching list. The cache volume name will show `__cache` as a suffix to the source volume name. 
 
 . To see the progress of the operation, from the top menu, select *Timeline*. 
