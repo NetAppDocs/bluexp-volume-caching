@@ -8,7 +8,7 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 = Use BlueXP volume caching overview
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/use/
+:imagesdir: ../media/
 
 [.lead]
 Using BlueXP volume caching, you can accomplish the following goals: 

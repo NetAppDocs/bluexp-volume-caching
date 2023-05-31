@@ -8,27 +8,27 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 = Create a cache
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/use/
+:imagesdir: ../media/
 
 [.lead]
 You can create a volume caching between Amazon FSx for ONTAP, Cloud Volumes ONTAP, and on-premises ONTAP with one or more source volumes from the source working environment as the cache source. You then choose the storage virtual machine for the cache volumes.  
 
-The cache volume can be on the same cluster or a different cluster than that of the source volume. The volumes you select to cache must belong to the same SVM and the SVMs must use the same protocols.  
+The cache volume can be on the same cluster or a different cluster than that of the source volume. The volumes you select to cache must belong to the same storage VM and the storage VMs must use the same protocols.  
 
 TIP: If volumes are not eligible for caching, they are greyed out so that you cannot select them. 
 
 You can enter the size for cache volumes as a percentage of source volume size. 
 
-NOTE: The IPSpace used by the cache volume depends on the IPSpace used by the source SVM.  
+NOTE: The IPSpace used by the cache volume depends on the IPSpace used by the source storage VM.  
 
-The cache volume name uses a suffix of `_cache` added to the original volume name.  
+The cache volume name uses a suffix of `_cache` added to the original volume name. 
 
 
 == Steps from the BlueXP volume caching landing page
 
 . Log in to BlueXP and select *Mobility* > *Volume caching* from the left nav. 
 +
-You’ll land on BlueXP volume caching Dashboard page. When you first start with the service, you need to add cache information. Later, the Dashboard appears instead and displays data about the caches. 
+You'll land on the BlueXP volume caching Dashboard page. When you first start with the service, you need to add the cache information. Later, the Dashboard appears instead and displays data about the caches. 
 
 +
 NOTE: If you have not yet set up a BlueXP Connector, the option *Add a connector* appears instead of the *Add a cache*. In this case, you need to set up the Connector first. Refer to the https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html[BlueXP Quick start^].
@@ -49,11 +49,11 @@ TIP: A good rule of thumb is that the cache volume size should be about 15% of t
 
 . Check the *Cache access* box to replicate the NFS export policy and the SMB/CIFS share configuration from the source volume to the target cache volume. 
 +
-Then the NFS export policy and SMB/CIFS share in the source volume will be replicated to the cache volume. If the SMB/CIFS protocol isn’t enabled on the cache storage VM, the SMB/CIFS share will not replicate.   
+Then the NFS export policy and SMB/CIFS share in the source volume will be replicated to the cache volume. If the SMB/CIFS protocol isn't enabled on the cache storage VM, the SMB/CIFS share will not replicate.   
 
 . Optionally, enter the cache name prefix. 
 +
-The suffix of `_cache` is appended to the name in the format: `<user-specified prefix>_<source volume name>_cache`
+The suffix of `__cache` is appended to the name in the format: `<user-specified prefix>_<source volume name>_cache`
 
 
 

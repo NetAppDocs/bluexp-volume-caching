@@ -8,13 +8,13 @@ summary: To use BlueXP volume caching, perform a few steps to set it up.
 = Set up BlueXP volume caching
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/get-started/
+:imagesdir: ../media/
 
 [.lead]
 To use BlueXP volume caching, perform a few steps to set it up.  
 
 
-* Review link:../get-started/dr-prerequisites.html[prerequisites] to ensure that your environment is ready.
+* Review link:../get-started/cache-prerequisites.html[prerequisites] to ensure that your environment is ready.
 * Create a BlueXP Connector. 
 * Create working environments.
 

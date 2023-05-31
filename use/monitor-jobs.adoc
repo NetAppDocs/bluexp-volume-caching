@@ -8,7 +8,7 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 = Monitor volume caching jobs on the Timeline
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/use/
+:imagesdir: ../media/
 
 [.lead]
 You can monitor all volume caching jobs and determine their progress.  

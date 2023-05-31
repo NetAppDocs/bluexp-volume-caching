@@ -8,7 +8,7 @@ summary: Get started with BlueXP volume caching by accessing the service in Blue
 = Access BlueXP volume caching
 :hardbreaks:
 :icons: font
-:imagesdir: ../media/get-started/
+:imagesdir: ../media/
 
 [.lead]
 You use NetApp BlueXP to log in to the BlueXP volume caching service. 
@@ -25,6 +25,6 @@ The NetApp BlueXP login page appears.
 . From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 +
 The BlueXP volume caching Dashboard appears.
-
+image:landing-page.png[image of the landing page for volume-caching]
 +
 NOTE: If a BlueXP Connector is not set up, the option *Add a connector* appears. Refer to link:../get-started/cache.setup.html[Set up BlueXP volume caching].
