@@ -21,7 +21,7 @@ You can enter the size for cache volumes as a percentage of source volume size.
 
 NOTE: The IPSpace used by the cache volume depends on the IPSpace used by the source storage VM.  
 
-The cache volume name uses a suffix of `_cache` added to the original volume name. 
+The cache volume name uses a suffix of `__cache` added to the original volume name. 
 
 
 == Steps from the BlueXP volume caching landing page
@@ -61,7 +61,7 @@ The suffix of `__cache` is appended to the name in the format: `<user-specified 
 
 . Select *Create caches*. 
 +
-The new cache appears on the Caching list. The cache volume name will show `_cache` as a suffix to the source volume name. 
+The new cache appears on the Caching list. The cache volume name will show `__cache` as a suffix to the source volume name. 
 
 . To see the progress of the operation, from the top menu, select *Timeline*. 
 
