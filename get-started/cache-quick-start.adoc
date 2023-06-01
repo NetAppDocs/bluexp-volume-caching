@@ -26,7 +26,7 @@ link:../get-started/cache-prerequisites.html[Ensure your environment meets these
 
 
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html[Complete steps to set up the service^].
+link:../get-started/cache-setup.html[Set up BlueXP volume caching^].
 
 
 
