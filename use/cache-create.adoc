@@ -26,7 +26,7 @@ The cache volume name uses a suffix of `pass:macros[_cache]` added to the origin
 
 == Steps from the BlueXP volume caching landing page
 
-. Log in to BlueXP and select *Mobility* > *Volume caching* from the left nav. 
+. Log in to BlueXP and select *Mobility* > *Volume caching* from the left navigation. 
 +
 You'll land on the BlueXP volume caching Dashboard page. When you first start with the service, you need to add the cache information. Later, the Dashboard appears instead and displays data about the caches. 
 
@@ -105,4 +105,4 @@ The suffix of `pass:macros[_cache]` is appended to the name in the format: `<use
 +
 The new cache appears on the Caching list. The cache volume name will show `pass:macros[_cache]` as a suffix to the source volume name. 
 
-. To see the progress of the operation, from the top menu, select *Timeline*. 
+. To see the progress of the operation, from the top menu, select image:settings-icon.png[settings icon] > *Timeline*. 
