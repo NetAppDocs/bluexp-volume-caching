@@ -11,7 +11,7 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 :imagesdir: ../media/
 
 [.lead]
-You can monitor all volume caching jobs and determine their progress.  
+You can monitor all volume caching jobs and determine their progress. 
 
 .Steps
 
@@ -19,6 +19,6 @@ You can monitor all volume caching jobs and determine their progress.
 
 image:timeline.png[timeline screen]
 
-. Optionally, filter by time, service, action, agent, resource, user, or status.  
+. Optionally, filter by time, service, action, agent, resource, user, or status. 
 
 . Explore all caches and the operations. 

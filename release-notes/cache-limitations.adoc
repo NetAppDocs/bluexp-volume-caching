@@ -14,7 +14,7 @@ summary: Known limitations identify platforms, devices, or functions that are no
 Known limitations identify platforms, devices, or functions that are not supported by this release of the service, or that do not interoperate correctly with it.
 
 == Limitation in copying cache export policy rules
-The cache  export policy rules are not copied to the cache volume in the following situations:
+The cache export policy rules are not copied to the cache volume in the following situations:
 
 * When the source volume's working environment is Amazon FSx for NetApp ONTAP or Cloud Volumes ONTAP, and the cache volume is ONTAP 9.10.1 or earlier.
 * When the source volume's working environment is any version of ONTAP, and the cache volume is ONTAP 9.10.1 or earlier.
@@ -27,7 +27,7 @@ If the source and destination clusters use storage VMs with the same name, the c
 Workaround: Use different names for the source and destination storage VMs.
 
 == Delay in displaying new or recently-edited export policies
-When creating a cache, you might not be able to see a recently-created or edited export policy on the list 
+When creating a cache, you might not be able to see a recently-created or edited export policy on the list.
 
 Workaround: Retry in a few minutes.
 
