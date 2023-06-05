@@ -27,7 +27,7 @@ For each volume caching, you can see the original volume, the working environmen
 
 .Steps 
 
-. From the BlueXP left nav, select *Mobility* > *Volume caching*. 
+. From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 +
 You can view the list of cache volumes created at the destination environment. The list of caches displays the cache details.  
 
@@ -40,23 +40,23 @@ You can view the list of cache volumes created at the destination environment. T
 . Review the details.  
 
 == Edit a volume cache
-You can change the cache name and cache volume size. 
+You can change the name, volume size, and export policy for a cache. 
 
 .Steps
 
-. From the BlueXP left nav, select *Mobility* > *Volume caching*. 
+. From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 
 . Select a row and select the *Actions …* option on the right.  
 
 . Select *View and edit details*. 
 
-. In the Basic configuration tab, optionally, change the cache name and cache volume size.  
+. In the Basic configuration tab, optionally, change the cache name and cache volume size.
 
-. Expand the Cache access tab.  
-.. Change the mount path. 
-.. Choose a different existing export policy.  
+. Optionally, expand the Cache access tab, and modify these values: 
+.. The mount path. 
+.. An export policy that is different from the existing one.  
 
-. To change SMB/CIFS share details or the export policy rules, click the option to access BlueXP System Manager, which opens in another tab.  
+. To change SMB/CIFS share details or the export policy rules, click the option to access BlueXP System Manager.  
 
 . Select *Save*.   
 
@@ -66,11 +66,11 @@ You can assign a different export policy to a cache.
 
 The source export policy rules should be applied to the target cluster.  
 
-TIP: You can assign an existing export policy to a cache. You cannot change the export policy rules. If you need to change the export policies, you can use NetApp System Manager.  
+TIP: You can assign an existing export policy to a cache. You cannot change the export policy rules. If you need to change the export policies, you can use NetApp System Manager.
 
 .Steps
 
-. From the BlueXP left nav, select *Mobility* > *Volume caching*. 
+. From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 
 . Select a row and select the *Actions …* option on the right.  
 
@@ -86,7 +86,7 @@ You can change the size of the cache volume based on a percentage of the source 
 
 .Steps
 
-. From the BlueXP left nav, select *Mobility* > *Volume caching*. 
+. From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 
 . Select a row and select the *Actions …* option on the right.  
 
@@ -100,11 +100,11 @@ The cache volume will resize to the new percentage.
 
 == Delete a volume cache 
 
-If you no longer need the cache, you can delete it. This deletes the volume caching relationship and deletes the target volume. 
+If you no longer need the cache, you can delete it. This deletes the volume caching relationship and deletes the target volume cache. 
 
 .Steps
 
-. From the BlueXP left nav, select *Mobility* > *Volume caching*. 
+. From the BlueXP left navigation, select *Mobility* > *Volume caching*. 
 
 . Select a row and select the *Actions …* option on the right.  
 

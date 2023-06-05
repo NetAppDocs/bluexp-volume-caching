@@ -27,4 +27,4 @@ The NetApp BlueXP login page appears.
 The BlueXP volume caching Dashboard appears.
 image:landing-page.png[image of the landing page for volume-caching]
 +
-NOTE: If a BlueXP Connector is not set up, the option *Add a connector* appears. Refer to link:../get-started/cache.setup.html[Set up BlueXP volume caching].
+NOTE: If a BlueXP Connector is not set up, the option *Add a connector* appears. Refer to link:../get-started/cache-setup.html[Set up BlueXP volume caching].

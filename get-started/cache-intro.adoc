@@ -15,7 +15,7 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 Volume caching, a feature of ONTAP 9 software, is a remote caching capability that simplifies file distribution, reduces WAN latency by bringing resources closer to where your users and compute resources are, and lowers WAN bandwidth costs. Volume caching provides a persistent, writable volume in a remote place. You can use BlueXP volume caching to speed up access to data or to offload traffic from heavily accessed volumes. Cache volumes are ideal for read-intensive workloads, especially where clients need to access the same data repeatedly. 
 
 
-With BlueXP volume caching, you have caching capabilities for the cloud, specifically for Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP, and on-premises as working environments.  
+With BlueXP volume caching, you have caching capabilities for the cloud, specifically for Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP, and on-premises as working environments. 
 
 The service also provides branch office access to corporate datasets. By serving _hot data_, data that needs to be accessed frequently from multiple controllers in a cluster, you can increase the performance delivered to key applications. And, by caching hot data local to users at multiple locations around the world, you can enhance their collaboration by enabling simultaneous access to centralized datasets while also reducing the response time they receive when accessing the hot data. 
 
@@ -31,10 +31,10 @@ A cache is a temporary storage location that resides between a host and the sour
 
 BlueXP volume caching offers the following benefits:
 
-* Accelerate performance in a hybrid cloud infrastructure  
+* Accelerate performance in a hybrid cloud infrastructure 
 * Remove cloud silos by caching data from one cloud provider to another 
 * Lower storage costs 
-* Collaborate across geographic locations  
+* Collaborate across geographic locations 
 * Use of a NetApp-managed service in BlueXP 
 * Ability to adapt to changing IT environments faster 
 * On-demand or subscription-based volume caching hosted in the cloud 
@@ -45,7 +45,7 @@ The BlueXP volume caching provides you with full use of several NetApp technolog
 The BlueXP volume caching service provides you with full use of several NetApp technologies to accomplish the following goals: 
 
 * Cache data from one cloud provider to another 
-* View and edit a cache export policy  
+* View and edit a cache export policy 
 * Resize an existing cache 
 * Delete a cache 
 
@@ -54,14 +54,14 @@ The BlueXP volume caching service provides you with full use of several NetApp t
 NetApp doesn't charge you for using the BlueXP volume caching service, but you’ll need to check your cloud provider for applicable data ingress and egress charges. 
 
 == Licensing 
-No special ONTAP licenses are needed for BlueXP volume caching.  
+No special ONTAP licenses are needed for BlueXP volume caching. 
 
 == How BlueXP volume caching works
 
-A cache volume is a sparsely populated volume that is backed by a source volume. The cache volume can be on the same cluster as or on a different cluster than that of the source volume.  
+A cache volume is a sparsely populated volume that is backed by a source volume. The cache volume can be on the same cluster as or on a different cluster than that of the source volume. 
 
 The cache volume provides access to data in the source volume without requiring that all the data be in the cache volume. Data storage in the caching volume is efficiently managed by retaining only the hot data (working, or recently used data). 
 
-BlueXP volume caching reads requests if the cache volume contains the data requested by the client. Otherwise, the volume caching service requests the data from the source volume and stores the data before serving the client request. Subsequent requests for the data are then served directly from the  cache volume. This improves performance when the same data is accessed repeatedly, because after the first request, the data no longer must travel across the network or be served from an overloaded system. 
+BlueXP volume caching reads requests if the cache volume contains the data requested by the client. Otherwise, the volume caching service requests the data from the source volume and stores the data before serving the client request. Subsequent requests for the data are then served directly from the cache volume. This improves performance when the same data is accessed repeatedly, because after the first request, the data no longer must travel across the network or be served from an overloaded system. 
 
 

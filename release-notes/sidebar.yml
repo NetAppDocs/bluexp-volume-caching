@@ -3,5 +3,5 @@ title: Release notes
 entries:
   - title: What's new
     url: /release-notes/cache-whats-new.html
-//  - title: Limitations
-//    url: /release-notes/cache-limitations.html
+  - title: Known Limitations
+    url: /release-notes/cache-limitations.html
