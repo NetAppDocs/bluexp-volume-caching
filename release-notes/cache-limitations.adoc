@@ -27,7 +27,7 @@ If the source and destination clusters use storage VMs with the same name, the c
 Workaround: Use different names for the source and destination storage VMs.
 
 == Delay in displaying new or recently-edited export policies
-You may not be able to see a recently created or edited export policy on the list while creating a cache.
+When creating a cache, you might not be able to see a recently-created or edited export policy on the list 
 
 Workaround: Retry in a few minutes.
 
