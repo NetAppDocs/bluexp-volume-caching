@@ -1,9 +1,36 @@
 indexpage:
-  lead: # single paragraph, shown on the page
+  lead: Volume caching provides a persistent, writable volume in a remote place. You can use BlueXP volume caching to speed up access to data or to offload traffic from heavily accessed volumes. Cache volumes are ideal for read-intensive workloads, especially where clients need to access the same data repeatedly.
   tiles:
-    # one or more tile definitions for the page
-  - title: # short string (tile title)
+  - title: Get started
+    #image: ./media/outline_directions_run_black_18dp.png
     links:
-      # one or more links on the tile
-      - title: # short string (link title)
-        url: # single file name or external URL
+    - title: Learn about BlueXP volume caching
+      url: /get-started/cache-intro.html
+    - title: What's new in BlueXP volume caching
+      url: /release-notes/cache-whats-new.html
+#   - title: Release notes
+#     url: /release-notes/rn_overview.html
+    - title: Quick start
+      url: /get-started/cache-quick-start.html
+    - title: Prerequisites
+      url: /get-started/cache-prerequisites.html
+    - title: Log in to BlueXP volume caching 
+      url: /get-started/cache-login.html
+    - title: FAQ
+      url: /get-started/cache-faq.html 
+  - title: Use BlueXP volume caching
+    links:
+    - title: Use BlueXP volume caching overview 
+      url: /use/cache-use-overview.html
+    - title: Create a cache 
+      url: /use/cache-create.html
+    - title: Manage a cache 
+      url: /use/cache-manage.html
+    - title: Monitor volume caching jobs
+      url: /use/monitor-jobs.html 
+  - title: Blogs & community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: Cloud webinars
+      url: https://bluexp.netapp.com/events       

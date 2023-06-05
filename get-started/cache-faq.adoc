@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: get-started/cache-faq.html
+keywords: volume caching faq, caching frequently asked questions
+summary: This FAQ can help if you're just looking for a quick answer to a question.
+---
+
+= Frequently asked questions for BlueXP volume caching
+:hardbreaks:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+
+
+*What's the BlueXP volume caching URL?*
+For the URL, in a browser, enter: https://console.bluexp.netapp.com/[https://console.bluexp.netapp.com/^] to access the BlueXP console. 
+
+
+*Do you need a license to use BlueXP volume caching?*
+A NetApp License File (NLF) is not required.
+
+*How do you enable BlueXP volume caching?*
+BlueXP volume caching does not require any enablement. The volume caching option automatically appears on the BlueXP left navigation.
+
