@@ -38,7 +38,7 @@ After you set up the service, here's what you might do next.
 
 [role="quick-margin-list"]
 * link:../use/cache-create.html[Create a cache^].
-* link:../use/cache-use-overview.html[Manage a cache, including resizing a cache volume^].
+* link:../use/cache-use-overview.html[Manage a cache, edit a cache, resize a cache, or delete a cache^].
 * link:../use/monitor-jobs.html[Monitor volume caching operations^].
 
 

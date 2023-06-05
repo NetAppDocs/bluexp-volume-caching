@@ -17,6 +17,7 @@ You can monitor all volume caching jobs and determine their progress.
 
 . From the top menu, select image:settings-icon.png[settings icon on the UI] > *Timeline*.
 
++
 image:timeline.png[timeline screen]
 
 . Optionally, filter by time, service, action, agent, resource, user, or status. 
