@@ -54,7 +54,7 @@ TIP: A good rule of thumb is that the cache volume size should be about 15% of t
 Then the NFS export policy rules and SMB/CIFS share in the source volume will be replicated to the cache volume. If the SMB/CIFS protocol isn't enabled on the cache storage VM, the SMB/CIFS share will not replicate. 
 
 . Optionally, enter the cache name prefix. 
-
++
 The suffix of `pass:macros[_cache]` is appended to the name in the format: `<user-specified prefix>_<source volume name>_cache`
 
 
