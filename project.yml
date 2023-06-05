@@ -4,7 +4,7 @@ settings:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-    harmony_enabled: true
+    harmony_enabled: false
 
 sidebar:
   entries:
@@ -20,3 +20,4 @@ product-family:
   name: BlueXP
   repo: bluexp-family
   sidebar_label: All BlueXP documentation
+
