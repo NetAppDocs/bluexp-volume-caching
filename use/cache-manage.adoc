@@ -23,7 +23,7 @@ With BlueXP volume caching, you can accomplish these goals:
 
 == View cache details
 
-For each volume caching, you can see the original volume, the working environment, the cache volume, and more. 
+For each caching, you can see the original volume, the working environment, the cache volume, and more. 
 
 .Steps 
 
@@ -39,7 +39,7 @@ You can view the list of cache volumes created at the destination environment. T
 
 . Review the details.  
 
-== Edit a volume cache
+== Edit a cache
 You can change the name, volume size, and export policy for a cache. 
 
 .Steps
@@ -80,7 +80,7 @@ TIP: You can assign an existing export policy to a cache. You cannot change the 
 
 . Select *Save*.
 
-== Resize a volume caching 
+== Resize a cache 
 
 You can change the size of the cache volume based on a percentage of the source volume.  
 
@@ -98,7 +98,7 @@ The cache volume will resize to the new percentage.
 
 . Select *Save*.
 
-== Delete a volume cache 
+== Delete a cache 
 
 If you no longer need the cache, you can delete it. This deletes the volume caching relationship and deletes the target volume cache. 
 

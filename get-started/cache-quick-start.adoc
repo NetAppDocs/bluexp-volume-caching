@@ -18,7 +18,7 @@ Here's an overview of the steps needed to get started with BlueXP volume caching
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Review prerequisites 
 
 [role="quick-margin-para"]
-link:../get-started/cache-prerequisites.html[Ensure your environment meets these requirements^].
+link:../get-started/cache-prerequisites.html[Ensure your environment meets these requirements].
  
 
 
@@ -26,7 +26,7 @@ link:../get-started/cache-prerequisites.html[Ensure your environment meets these
 
 
 [role="quick-margin-para"]
-link:../get-started/cache-setup.html[Set up BlueXP volume caching^].
+link:../get-started/cache-setup.html[Set up BlueXP volume caching].
 
 
 
@@ -37,8 +37,8 @@ link:../get-started/cache-setup.html[Set up BlueXP volume caching^].
 After you set up the service, here's what you might do next. 
 
 [role="quick-margin-list"]
-* link:../use/cache-create.html[Create a cache^].
-* link:../use/cache-use-overview.html[Manage a cache, including resizing a cache volume^].
-* link:../use/monitor-jobs.html[Monitor volume caching operations^].
+* link:../use/cache-create.html[Create a cache].
+* link:../use/cache-use-overview.html[Manage a cache, edit a cache, resize a cache, or delete a cache].
+* link:../use/monitor-jobs.html[Monitor volume caching operations].
 
 

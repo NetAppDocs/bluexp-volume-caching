@@ -13,6 +13,7 @@ sidebar:
     - section: release-notes
     - section: get-started
     - section: use
+#   - section: concepts
     - section: support
     - title: Legal notices
       url: /legal-notices.html
@@ -20,3 +21,4 @@ product-family:
   name: BlueXP
   repo: bluexp-family
   sidebar_label: All BlueXP documentation
+

@@ -27,7 +27,7 @@ To use BlueXP volume caching, you should ensure that your environment meets all 
 
 ** The clusters should be added in the target working environment and in an ON or degraded state.  
 
-** Standard BlueXP requirements. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[BlueXP requirements].  
+** Standard BlueXP requirements. Refer to https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html[BlueXP requirements^].  
 
 
 
