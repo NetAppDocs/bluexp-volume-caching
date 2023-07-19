@@ -19,7 +19,7 @@ With BlueXP volume caching, you have caching capabilities for the cloud, specifi
 
 The service also provides branch office access to corporate datasets. By serving _hot data_, data that needs to be accessed frequently from multiple controllers in a cluster, you can increase the performance delivered to key applications. And, by caching hot data local to users at multiple locations around the world, you can enhance their collaboration by enabling simultaneous access to centralized datasets while also reducing the response time they receive when accessing the hot data. 
 
-BlueXP volume caching is deployed in an Amazon S3 bucket, served by AWS CloudFront. 
+ 
 
 //image:abc.png[Diagram showing components of the BlueXP volume caching]
 
