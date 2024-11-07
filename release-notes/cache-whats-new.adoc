@@ -13,7 +13,9 @@ summary: Volume caching provides a persistent, writable volume in a remote place
 [.lead]
 Learn what's new in BlueXP volume caching.
 
-
+// tag::whats-new[]
 == 04 June 2023 
 
 include::_whatsnew/2023-06-04.adoc[] 
+
+// end::whats-new[]
