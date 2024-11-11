@@ -35,19 +35,18 @@ BlueXP volume caching offers the following benefits:
 * Remove cloud silos by caching data from one cloud provider to another 
 * Lower storage costs 
 * Collaborate across geographic locations 
-* Use of a NetApp-managed service in BlueXP 
-* Ability to adapt to changing IT environments faster 
-* On-demand or subscription-based volume caching hosted in the cloud 
+* Use a NetApp-managed service in BlueXP 
+* Adapt to changing IT environments faster 
+* Use on-demand or subscription-based volume caching hosted in the cloud 
 
 == What you can do with BlueXP volume caching 
 The BlueXP volume caching provides you with full use of several NetApp technologies to accomplish the following goals: 
 
-The BlueXP volume caching service provides you with full use of several NetApp technologies to accomplish the following goals: 
 
-* Cache data from one cloud provider to another 
-* View and edit a cache export policy 
-* Resize an existing cache 
-* Delete a cache 
+* Cache data from one cloud provider to another. 
+* View and edit a cache export policy. 
+* Resize an existing cache. 
+* Delete a cache. 
 
 == Cost
 
